@@ -1,5 +1,5 @@
 {% set name = "parsevasp" %}
-{% set version = "3.3.0" %}
+{% set version = "3.4.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/parsevasp-{{ version }}.tar.gz
-  sha256: a32e9d4530a197aea78d5f37890328114dfc8382609bb7ce7ff95489713f4edb
+  sha256: c761f2c85572eae5924e7fca2fc89ee31ed8f6c3f21babf8ece9da983629904f
 
 build:
   noarch: python
